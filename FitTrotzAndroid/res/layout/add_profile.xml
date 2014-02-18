@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/Rege"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="Registrierung"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" >
+          <requestFocus />
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/radio_sex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mann" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Frau" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Größe in cm"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Alter"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Gewicht in Kg"
+        android:inputType="number" />
+<!-- android:text="Schildruesenunterfunktion" Stein-Leventhal--> 
+    <RadioGroup
+        android:id="@+id/radio_disease"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_SUF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Schildruesenunterfunktion"/>
+
+        <RadioButton
+            android:id="@+id/radio_SLS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Stein-Leventhal" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nehmen Sie Medikamente?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <RadioGroup
+            android:id="@+id/radio_med"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radio_ja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ja" />
+
+            <RadioButton
+                android:id="@+id/radio_nein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nein" />
+        </RadioGroup>
+
+    </LinearLayout>
+ <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/Addbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="73dp"
+                android:background="@color/button"
+                android:gravity="center"
+                android:text="Speichern"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+</LinearLayout>

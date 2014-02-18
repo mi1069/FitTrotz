@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddSportActivity" 
+     android:background="@color/background">
+    
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Aktivität erstellen"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+<!-- dropdown liste der aktivitäten -->
+    <Spinner
+        android:id="@+id/spinner_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="19dp"
+
+        android:prompt="@string/sport_prompt"/>
+
+            <!-- android:entries="@array/SportNames -->" 
+            
+    <EditText
+        android:id="@+id/addtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/adddate"
+        android:layout_alignRight="@+id/adddate"
+        android:layout_below="@+id/adddate"
+        android:ems="10"
+        android:hint="Zeit: 13:25"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/adddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_place"
+        android:layout_below="@+id/spinner_place"
+        android:ems="10"
+        android:hint="Datum: 20.01.2014"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/addplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addtime"
+        android:layout_below="@+id/addtime"
+        android:ems="10"
+        android:hint="Ort eingeben" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/addlattitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addplace"
+        android:layout_below="@+id/addplace"
+        android:ems="10"
+        android:hint="Latitude eingeben" />
+
+    <EditText
+        android:id="@+id/addlongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addlattitude"
+        android:layout_below="@+id/addlattitude"
+        android:ems="10"
+        android:hint="Longitude eingeben" />
+
+    <EditText
+        android:id="@+id/addcomment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addlongitude"
+        android:layout_below="@+id/addlongitude"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Kommentar(Optional)"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnSaveSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/addcomment"
+        android:layout_below="@+id/addcomment"
+        android:layout_marginTop="20dp"
+        android:background="@color/button"
+        android:text="Speichern" />
+
+</RelativeLayout>

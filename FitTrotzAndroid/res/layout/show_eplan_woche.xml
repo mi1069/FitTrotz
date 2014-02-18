@@ -1,0 +1,236 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EplanWocheActivity" >
+
+   	<TableLayout 
+   	   
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1" >
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Ernährungsplan"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+		             
+	</LinearLayout>
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+
+  		<Button
+  		    android:layout_width="fill_parent"
+  		    android:layout_height="match_parent"
+  		    android:layout_weight="10"
+  		    android:text="Tag" 
+  		    android:background="@color/button"/>
+        
+   	 	<Button 
+      	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="10" 
+		android:id="@+id/nbt_Woche"
+		android:text="Woche"
+		android:background="@color/bisque"
+		/>
+	</LinearLayout>		
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/bisque"
+	    android:padding="10sp"
+	    android:text="MONTAG" />
+
+  	<TableRow>
+  		<TextView
+  		android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+  		android:text="Frühstück"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+  		android:text="Mittagessen"
+  		android:layout_column="1"
+  		android:padding="10sp"
+ 	 	/>
+ 	 	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Abendessen"
+	  	android:padding="10sp"
+	  	/>
+	  	</TableRow>
+	  	<TableRow>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	  	</TableRow>
+	  	<TableRow >
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	 
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle 7"
+	  	android:padding="10sp"
+	  	/>      
+	  	</TableRow>
+	  	<TextView
+  		android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+  		android:text="DIENSTAG"
+	  	android:padding="10sp"
+	  	android:background="@color/bisque"
+	  	/>
+  		<TableRow>
+  		<TextView
+  		android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+  		android:text="Frühstück"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+  		android:text="Mittagessen"
+  		android:layout_column="1"
+  		android:padding="10sp"
+ 	 	/>
+ 	 	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Abendessen"
+	  	android:padding="10sp"
+	  	/>
+	  	</TableRow>
+	  	<TableRow>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	  	</TableRow>
+	  	<TableRow >
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle 6"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>      
+	  	</TableRow>
+	  		  	<TextView
+  		android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+  		android:text="MITTWOCH"
+	  	android:padding="10sp"
+	  	android:background="@color/bisque"
+	  	/>
+  		<TableRow>
+  		<TextView
+  		android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+  		android:text="Frühstück"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+  		android:text="Mittagessen"
+  		android:layout_column="1"
+  		android:padding="10sp"
+ 	 	/>
+ 	 	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Abendessen"
+	  	android:padding="10sp"
+	  	/>
+	  	</TableRow>
+	  	<TableRow>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	  	<TextView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Zelle"
+	  	android:padding="10sp"
+	  	/>
+	  	</TableRow>   
+</TableLayout>
+
+
+</RelativeLayout>

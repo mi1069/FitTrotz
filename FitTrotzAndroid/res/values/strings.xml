@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FitTrotz</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="NavigationList">
+        <item>Profile</item>
+        <item>E-Plan </item>
+        <item>Activities </item>
+        <item>Graph</item>
+        <item>Forum</item>
+    </string-array>
+
+    <!-- Spinner(DropDown) for select activity -->
+    <string name="sport_prompt">Aktivität auswählen</string>
+
+    <string-array name="SportNames">
+        <item>Schwimmen</item>
+        <item>Walking</item>
+        <item>Radfahren</item>
+    </string-array>
+
+    <!-- Spinner(DropDown) for select activity -->
+    <string name="place_prompt">Ort auswählen</string>
+
+    <string-array name="PlaceNames">
+        <item>Cologne</item>
+        <item>Bonn</item>
+        <item>Gummersbach</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_sport">AddSportActivity</string>
+    <string name="title_activity_eplan_fragment">EplanFragment</string>
+    <string name="title_activity_eplan_woche_fragment">EplanWocheFragment</string>
+    <string name="title_activity_forum_fragment">ForumFragment</string>
+    <string name="title_activity_graph_fragment">GraphFragment</string>
+    <string name="title_activity_server_status_fragment">ServerStatusFragment</string>
+    <string name="title_activity_show_activity_fragment">ShowActivityFragment</string>
+    <string name="title_activity_show_one_sport">ShowOneSportAct</string>
+    <string name="title_activity_show_one_sport_fragment">ShowOneSportFragment</string>
+    <string name="title_activity_show_profile_fragment">ShowProfileFragment</string>
+    <string name="title_activity_show_selected_sport">ShowSelectedSport</string>
+
+</resources>

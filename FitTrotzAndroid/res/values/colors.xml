@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Farbschema -->
+	<color name="schwarz">#000000</color>
+	<color name="weiss">#FFFFFF</color>
+	<color name="rot">#C00</color>
+	<color name="gelb">#CC0</color>
+	<color name="gruen">#0C0</color>
+	<color name="blau">#00C</color>
+	<color name="blau_halbtransparent">#7F6666FF</color>
+	<color name="gelb_transparent">#CFF0</color>
+	<color name="dunkelblau">#006</color>
+	<color name="dunkelgrau">#333</color>
+	<color name="bisque">#ffe4c4</color>
+	
+	<color name="palegreen">#98Fb98</color>
+	
+	<color name="khaki">#F0e68c</color>
+	
+	<color name="papayawhip">#ffefd5</color>
+	
+	<color name="oldlace">#fdf5e6</color>
+	
+	<!-- Farbzuordnung -->
+	<color name="textfarbe">@color/weiss</color>
+	<color name="background">@color/oldlace</color>
+	<color name="button">@color/palegreen</color>
+	<color name="backgroundD">@color/bisque</color>
+	
+	
+</resources>
